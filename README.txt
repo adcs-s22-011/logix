@@ -1,7 +1,5 @@
-THEME: Sublime - Free Bootstrap Theme
-AUTHOR: uiCookies.com
-AUTHOR URI: https://uiCookies.com/
-
+AUTHOR URI: https://www.linkedin.com/in/
+muhammad-abdullah15
 
 CREDITS:
 
