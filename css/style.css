@@ -78,7 +78,7 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #6078EA;
+  color: #08B662;
 }
 
 a:hover, a:focus, a:active {
@@ -87,14 +87,18 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-header {
-  background: #6078EA;
+  /* Use a single background property and remove duplicate entries. */
+  background: #08B662;
+  /* Set the padding before the background property. */
   padding-top: 30px;
-  z-index: 1;
-  background: #17ead9;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #17ead9), color-stop(100%, #6078ea));
-  background: -webkit-gradient(linear, left top, right top, from(#17ead9), to(#6078ea));
-  background: linear-gradient(to right, #17ead9 0%, #6078ea 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
+  /* Remove the unnecessary z-index property. */
+  /* z-index: 1; */
+
+  /* Use the unprefixed linear-gradient and remove webkit prefixes. */
+  background: linear-gradient(to right, #F66546 0%, #08B662 100%);
+
+  /* Remove the outdated IE gradient filter. */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 ); */
 }
 
 .probootstrap-header.probootstrap-header-no-intro {
@@ -142,7 +146,7 @@ a:hover, a:focus, a:active {
   z-index: 1100;
   height: 100vh;
   width: 300px;
-  background: #6078EA;
+  background: #08B662;
   padding: 40px;
   -webkit-transition: .3s all ease-out;
   transition: .3s all ease-out;
@@ -165,7 +169,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li {
   display: inline-block;
-  *display: inline;
+  /* *display: inline; */
   zoom: 1;
   padding: 0;
   margin: 0;
@@ -240,7 +244,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-main-nav li.probootstrap-cta a:hover {
   background: #ffffff;
-  color: #6078EA;
+  color: #08B662;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.probootstrap-cta {
@@ -440,38 +444,38 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  border: 1px solid #6078EA;
-  background: #6078EA;
+  border: 1px solid #08B662;
+  background: #08B662;
   color: #ffffff;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #17EAD9;
+  background: #F66546;
   color: #ffffff;
-  border: 1px solid #17EAD9;
+  border: 1px solid #F66546;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 1px solid #17EAD9;
+  border: 1px solid #F66546;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 1px solid #6078EA;
-  color: #6078EA;
+  border: 1px solid #08B662;
+  color: #08B662;
 }
 
 .btn.btn-ghost:hover {
-  background: #6078EA;
+  background: #08B662;
   color: #ffffff;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #6078EA;
-  border: 1px solid #6078EA;
+  color: #08B662;
+  border: 1px solid #08B662;
 }
 
 .btn.btn-black {
@@ -481,16 +485,16 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-black:hover {
-  background: #6078EA;
+  background: #08B662;
   color: #ffffff;
-  border: 1px solid #6078EA;
+  border: 1px solid #08B662;
 }
 
 .btn.btn-black:focus, .btn.btn-black:active {
   outline: none;
-  background: #6078EA;
+  background: #08B662;
   color: #ffffff;
-  border: 1px solid #6078EA;
+  border: 1px solid #08B662;
 }
 
 .probootstrap-section {
@@ -544,7 +548,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored, .probootstrap-section.probootstrap-section-dark {
-  background: #6078EA;
+  background: #08B662;
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2, .probootstrap-section.probootstrap-section-colored .section-heading .heading-with-icon, .probootstrap-section.probootstrap-section-dark .section-heading h2, .probootstrap-section.probootstrap-section-dark .section-heading .heading-with-icon {
@@ -560,7 +564,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored .heading-with-icon i, .probootstrap-section.probootstrap-section-dark .heading-with-icon i {
-  color: #17EAD9;
+  color: #F66546;
 }
 
 .probootstrap-section.probootstrap-section-colored p, .probootstrap-section.probootstrap-section-dark p {
@@ -597,7 +601,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-product-tour h5 {
-  color: #6078EA;
+  color: #08B662;
   margin-bottom: 0;
 }
 
@@ -773,7 +777,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-  color: #6078EA;
+  color: #08B662;
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -914,7 +918,7 @@ a:hover, a:focus, a:active {
   display: block;
   text-transform: none;
   letter-spacing: normal;
-  color: #6078EA;
+  color: #08B662;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -925,7 +929,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
   font-size: 50px;
-  color: #6078EA;
+  color: #08B662;
   font-weight: 100;
   line-height: 1.2;
   display: block;
@@ -963,7 +967,7 @@ a:hover, a:focus, a:active {
 }
 
 .heading-with-icon i {
-  color: #6078EA;
+  color: #08B662;
   font-size: 30px;
   position: relative;
   margin-right: 20px;
@@ -983,7 +987,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-box .icon i {
   font-size: 50px;
-  color: #6078EA;
+  color: #08B662;
 }
 
 .probootstrap-absolute {
@@ -1015,7 +1019,7 @@ a:hover, a:focus, a:active {
 
 .progress-bar {
   border: none;
-  background-color: #6078EA;
+  background-color: #08B662;
   border-radius: 10px;
   position: relative;
   -webkit-box-shadow: none;
@@ -1024,7 +1028,7 @@ a:hover, a:focus, a:active {
 }
 
 .progress-bar > span {
-  background: #6078EA;
+  background: #08B662;
   padding: 2px 4px;
   font-size: 10px;
   position: absolute;
@@ -1039,7 +1043,7 @@ a:hover, a:focus, a:active {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 7px solid #6078EA;
+  border-top: 7px solid #08B662;
   position: absolute;
   bottom: -7px;
   left: 50%;
@@ -1075,7 +1079,7 @@ a:hover, a:focus, a:active {
 .nav-tabs.probootstrap-center > li, .nav-pills.probootstrap-center > li {
   float: none;
   display: inline-block;
-  *display: inline;
+  /* *display: inline; */
   zoom: 1;
 }
 
@@ -1089,7 +1093,7 @@ a:hover, a:focus, a:active {
 .nav-tabs.probootstrap-tabs > li > a, .nav-pills.probootstrap-tabs > li > a {
   border-radius: 0px;
   padding: 20px 30px;
-  background: #6078EA;
+  background: #08B662;
   color: #ffffff;
   font-size: 16px;
   border: none !important;
@@ -1103,7 +1107,7 @@ a:hover, a:focus, a:active {
 }
 
 .nav-tabs.probootstrap-tabs > li > a:hover, .nav-pills.probootstrap-tabs > li > a:hover {
-  background: #4965e7;
+  background: #08B662;
 }
 
 .nav-tabs.probootstrap-tabs > li > a:active, .nav-tabs.probootstrap-tabs > li > a:focus, .nav-pills.probootstrap-tabs > li > a:active, .nav-pills.probootstrap-tabs > li > a:focus {
@@ -1153,7 +1157,7 @@ a:hover, a:focus, a:active {
 .service .icon i {
   font-size: 40px;
   color: rgba(0, 0, 0, 0.2);
-  color: #6078EA;
+  color: #08B662;
 }
 
 .service h3 {
@@ -1262,7 +1266,7 @@ a:hover, a:focus, a:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #6078EA;
+  border-color: #08B662;
   background: #ffffff;
 }
 
@@ -1372,7 +1376,7 @@ a:hover, a:focus, a:active {
 
 .flexslider .flex-direction-nav a:before {
   font-family: 'icomoon';
-  speak: none;
+  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1635,7 +1639,7 @@ a:hover, a:focus, a:active {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
