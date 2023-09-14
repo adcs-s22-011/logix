@@ -112,11 +112,12 @@ a:hover, a:focus, a:active {
 
 .probootstrap-logo {
   float: left;
-  color: #ffffff;
+  /* color: #ffffff; */
   padding-left: 60px;
   font-size: 20px;
   display: block;
-  text-transform: uppercase;
+
+  /* text-transform: uppercase; */
   font-weight: 500;
 }
 
